@@ -12,7 +12,7 @@ import {
 
 const UserFilter = (props) => (
   <Filter {...props}>
-    <SearchInput source="displayName" alwaysOn />
+    <SearchInput source="name" alwaysOn />
   </Filter>
 );
 
@@ -25,9 +25,9 @@ const UserList = (props) => {
         <TextField source="displayName" />
         <TextField source="email" />
         <TextField source="userType" />
-        <ShowButton label="Detail" />
+        {/* <ShowButton label="Detail" /> */}
         {/* <EditButton label="Edit" /> */}
-        <DeleteButton label="" redirect={false} />
+        {/* <DeleteButton label="" redirect={false} /> */}
       </Datagrid>
     </List>
   );
