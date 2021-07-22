@@ -6,8 +6,6 @@ import {
   TextField,
   List,
   SearchInput,
-  DeleteButton,
-  ShowButton,
 } from "react-admin";
 
 const UserFilter = (props) => (

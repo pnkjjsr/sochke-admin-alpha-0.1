@@ -4,7 +4,7 @@ import { Login, LoginForm } from "react-admin";
 
 const CustomLoginForm = props => (
   <div>
-    <div style={{fontFamily: "monospace", marginLeft: '15px'}}>
+    <div style={{ fontFamily: "monospace", marginLeft: '15px' }}>
       <p>Username: pnkj_jsr@yahoo.co.in</p>
       <p>Password: 9968260469</p>
     </div>
@@ -13,7 +13,7 @@ const CustomLoginForm = props => (
 );
 
 const CustomLoginPage = props => (
-  <Login loginForm={<CustomLoginForm />} {...props} />
+  <Login loginform={<CustomLoginForm />} {...props} />
 );
 
 export default CustomLoginPage;

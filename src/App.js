@@ -12,6 +12,7 @@ import CustomLoginPage from './components/CustomLoginPage';
 
 import users from "./collections/users"
 import ministers from "./collections/ministers"
+import leaderTypes from "./collections/leaderTypes"
 
 const options = {}
 
@@ -29,6 +30,7 @@ class App extends React.Component {
       >
         <Resource name="users" {...users} />
         <Resource name="ministers" {...ministers} />
+        <Resource name="leaderTypes" {...leaderTypes} />
       </Admin>
 
     );

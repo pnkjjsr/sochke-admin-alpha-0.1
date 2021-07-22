@@ -7,8 +7,6 @@ import {
   Filter,
   TextField,
   TextInput,
-  ShowButton,
-  DeleteButton,
 } from "react-admin";
 
 const MinisterFilter = (props) => (
